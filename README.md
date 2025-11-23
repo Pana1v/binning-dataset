@@ -187,14 +187,6 @@ This will:
 - **Object Types**: Randomly assigned (0-3), uniformly distributed
 - **Reproducibility**: Each scenario uses a fixed random seed (scenario index)
 
-## Quality Checks
-
-The dataset includes validation for:
-- ✅ Object count matches expected value
-- ✅ Minimum distance between objects (≥0.1 units to prevent exact overlaps)
-- ✅ Greedy solution correctness
-- ✅ All objects are within workspace bounds
-- ✅ All types are valid (0-3)
 
 ## File Structure
 
@@ -236,9 +228,9 @@ If you use this dataset in your research, please cite:
 ```bibtex
 @dataset{pick_place_binning_2025,
   title={Pick-and-Place Binning Dataset},
-  author={Your Name},
+  author={Pana1v},
   year={2025},
-  url={https://github.com/yourusername/pick-place-binning-dataset}
+  url={https://github.com/Pana1v/binning-dataset}
 }
 ```
 
@@ -250,6 +242,22 @@ Dataset versions are tracked using Git tags:
 ## Contributing
 
 Contributions are welcome! Please feel free to submit issues or pull requests.
+
+### How to Contribute
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Make your changes
+4. Commit your changes (`git commit -m 'Add some amazing feature'`)
+5. Push to the branch (`git push origin feature/amazing-feature`)
+6. Open a Pull Request
+
+### Reporting Issues
+
+If you find any issues with the dataset or have suggestions for improvements, please open an issue on GitHub with:
+- A clear description of the problem
+- Steps to reproduce (if applicable)
+- Expected vs actual behavior
 
 ## Acknowledgments
 
